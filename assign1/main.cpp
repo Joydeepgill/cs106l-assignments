@@ -8,6 +8,7 @@
  * Students must implement: parse_csv, write_courses_offered,
  * write_courses_not_offered
  */
+using namespace std;
 
 #include <algorithm>
 #include <fstream>
@@ -25,7 +26,8 @@ const std::string COURSES_NOT_OFFERED_PATH = "student_output/courses_not_offered
  * Hint: Remember what types C++ streams work with?!
  */
 struct Course {
-  /* STUDENT TODO */ title;
+  /* STUDENT TODO */ 
+  string title;
   /* STUDENT TODO */ number_of_units;
   /* STUDENT TODO */ quarter;
 };
